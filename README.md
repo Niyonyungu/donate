@@ -1,6 +1,5 @@
 <h2 align="center">
   Donate Purple<br/>
-  <a href="" target="_blank">soumyajit.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="" />

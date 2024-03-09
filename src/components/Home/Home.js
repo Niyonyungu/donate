@@ -1,6 +1,7 @@
 import React from "react";
 import Type from "./Type";
 import { TbHandClick } from "react-icons/tb";
+import Donate from "../Donate";
 
 
 function Home() {
@@ -15,7 +16,8 @@ function Home() {
         </h4>
          <p>Choose Today! it's Either</p>
          <Type className="type" />
-      </div>   
+      </div>  
+      <Donate/> 
     </section>
   );
 }

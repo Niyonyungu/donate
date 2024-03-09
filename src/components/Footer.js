@@ -6,7 +6,7 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-                <h3>Copyright © {year} Donate Purple</h3> 
+                <h3>Copyright © {year} Donate Purple | Developed by <span> <a href="https://vainqueur-portfolio.netlify.app/#" target="_blank" rel="noreferrer"> Vainqueur</a></span> </h3> 
     </Container>
   );
 }

@@ -74,6 +74,8 @@ button:focus {
 .cont{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
 }
 
@@ -154,6 +156,7 @@ button:focus {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30px;
 }
 .click{
   color: #808000;
@@ -164,6 +167,7 @@ button:focus {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 12%;
 }
 .type-head h1{
   font-weight: 900;
@@ -202,23 +206,28 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer{
-  background-color: black;  
-  color: black !important;   
+  background-color: black !important;   
   display: flex !important;
   align-items: center ;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 
 
 .footer h3 {
-  font-size: 1em;
+  font-size: 15px;
   color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  font-weight: 900;
+  padding: 15px !important;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover{
+  text-decoration: underline;
+  color: #808000;
 }
 
 /* --------- */
@@ -250,10 +259,36 @@ button:focus {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
+.about-section h1{
+  color: black;
+  font-weight: 800;
+}
 
+.about-section span{
+  color: #808000;
+}
+
+.about-section p{
+  padding: 2% 20%;
+}
+
+.lin{
+  color: white;
+  font-weight: 700;
+  background-color: #808000;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.lin:hover{
+  color: white;
+}
+.bac{
+  font-size: 20px;
+}
 
 /* --------- */
 

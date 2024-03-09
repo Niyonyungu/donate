@@ -1,0 +1,145 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container h1{
+    font-size: 20px;
+}
+.total{
+    color: #808000;
+    font-size: 50px;
+}
+
+.parties{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.side{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.side h2{
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+}
+.side p{
+    color: #808000;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.side span{
+    color: black;
+}
+
+.center{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center h1{
+    color: black;
+    font-size: 25px;
+}
+
+.rep{
+    border-left: 5px solid red;
+    padding-left: 5px;
+}
+.dem{
+    border-right: 5px solid blue;
+    padding-right: 5px;
+}
+
+.bubble{
+    clip-path: circle();
+    margin-top: 20px;
+  }
+  
+  .bubble1{  
+    width: 40px;
+    height: 40px;
+    background: red;
+  }
+  
+  .bubble2{
+    width: 40px;
+    height: 40px;
+    background: blue;
+  }
+
+  .bubble3{
+    width: 80px;
+    height: 80px;
+    background: orange;
+  }
+
+.donatee{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding: 5px;
+}
+
+
+.sele{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     appearance: none;
+    padding: 8px 24px 8px 16px; 
+    border: 1px solid #808000;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.inp{
+    outline: none; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #808000;
+}
+
+
+.dontatebtn{
+    line-height: 1.4em !important;
+    background-color: #808000 !important;
+    padding: 0.25rem 1.1rem !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .dontatebtn:hover{
+    transform: translateY(-2px) !important;
+    background-color: #808000 !important;
+    border-color: #808000 !important;
+  }
+  .dontatebtn::after{
+    display: none !important;
+  }

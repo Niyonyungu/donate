@@ -19,7 +19,6 @@ button:focus {
 }
 
 
-
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -169,6 +168,15 @@ button:focus {
   justify-content: center;
   margin-top: 12%;
 }
+
+@media (max-width: 767px) {
+  .type-head{
+    margin-top: 50px !important;
+  }
+}
+
+
+
 .type-head h1{
   font-weight: 900;
 }
@@ -191,7 +199,9 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+ 
   .Typewriter__wrapper {
+    margin-left: -50px !important;
     font-size: 1.4em !important;
     font-weight: 500 !important;
     position: absolute !important;

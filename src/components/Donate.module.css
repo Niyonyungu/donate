@@ -143,3 +143,17 @@
   .dontatebtn::after{
     display: none !important;
   }
+
+  @media (max-width: 767px) {
+    .parties{
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .donatee{
+        flex-direction: column;
+    }
+  }
+
+

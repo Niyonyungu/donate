@@ -92,7 +92,7 @@
   .bubble3{
     width: 80px;
     height: 80px;
-    background: orange;
+    background: purple;
   }
 
 .donatee{
@@ -134,6 +134,17 @@
 .dontatebtn{
     line-height: 1.4em !important;
     background-color: #808000 !important;
+    padding: 0.25rem 1.1rem !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .dontatebtnr{
+    line-height: 1.4em !important;
+    background-color: red !important;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;

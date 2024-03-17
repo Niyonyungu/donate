@@ -3,7 +3,6 @@ import Type from "./Type";
 import { TbHandClick } from "react-icons/tb";
 import Donate from "../Donate";
 
-
 function Home() {
   return (
     <section className="home-container">

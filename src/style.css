@@ -1,6 +1,6 @@
 html {
 
-  --imp-text-color: #808000;
+  --imp-text-color: #A020F0;
 }
 
 button:focus {
@@ -15,7 +15,7 @@ button:focus {
 .sticky {
   background-color: black !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #80800021 !important;
+  box-shadow: 0px 10px 10px 0px #56047c21 !important;
 }
 
 
@@ -27,7 +27,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #808000 !important;
+  background-color: #A020F0 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -96,9 +96,17 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
-.logo {
+/* .logo {
   height: 1.4em !important;
   width: 2.5em !important;
+} */
+.img-fluid.logo {
+  font-size: 28px;
+  font-weight: 900;
+  background: linear-gradient(to right, #a900f2,  #421754,  #9304d1 , #3c0f4f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .navbar-nav .nav-link {
@@ -136,7 +144,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #808000;
+  background: #A020F0;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -158,7 +166,7 @@ button:focus {
   padding-bottom: 30px;
 }
 .click{
-  color: #808000;
+  color: #A020F0;
 }
 
 .type-head{
@@ -205,12 +213,12 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #808000 !important;
+  color: #A020F0 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #808000 !important;
+  color: #A020F0 !important;
 }
 
 @media (max-width: 767px) {
@@ -252,7 +260,7 @@ button:focus {
 }
 .footer a:hover{
   text-decoration: underline;
-  color: #808000;
+  color: #A020F0;
 }
 
 /* --------- */
@@ -260,14 +268,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #808000 !important;
-  border-color: #808000 !important;
+  background-color: #A020F0 !important;
+  border-color: #A020F0 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #808000 !important;
-  border-color: #808000 !important;
+  background-color: #A020F0 !important;
+  border-color: #A020F0 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -293,7 +301,7 @@ button:focus {
 }
 
 .about-section span{
-  color: #808000;
+  color: #A020F0;
 }
 
 .about-section p{
@@ -311,7 +319,7 @@ button:focus {
 .lin{
   color: white;
   font-weight: 700;
-  background-color: #808000;
+  background-color: #A020F0;
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
@@ -333,7 +341,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #808000 !important;
+  background-color: #A020F0 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -341,8 +349,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #808000 !important;
-  border-color: #808000 !important;
+  background-color: #A020F0 !important;
+  border-color: #A020F0 !important;
 }
 .fork-btn-inner::after {
   display: none !important;

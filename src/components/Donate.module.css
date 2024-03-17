@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 .total{
-    color: #808000;
+    color: #A020F0;
     font-size: 50px;
 }
 
@@ -41,7 +41,7 @@
   }
 
 .side p{
-    color: #808000;
+    color: #A020F0;
     font-weight: 900;
     font-size: 30px;
 }
@@ -108,7 +108,7 @@
     -moz-appearance: none;
      appearance: none;
     padding: 8px 24px 8px 16px; 
-    border: 1px solid #808000;
+    border: 1px solid #A020F0;
     outline: none;
     border-radius: 5px;
     position: relative;
@@ -127,13 +127,13 @@
     justify-content: center; 
     align-items: center;
     border-radius: 5px;
-    border: 1px solid #808000;
+    border: 1px solid #A020F0;
 }
 
 
 .dontatebtn{
     line-height: 1.4em !important;
-    background-color: #808000 !important;
+    background-color: #A020F0 !important;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;
@@ -155,8 +155,8 @@
   
   .dontatebtn:hover{
     transform: translateY(-2px) !important;
-    background-color: #808000 !important;
-    border-color: #808000 !important;
+    background-color: #A020F0 !important;
+    border-color: #A020F0 !important;
   }
   .dontatebtn::after{
     display: none !important;

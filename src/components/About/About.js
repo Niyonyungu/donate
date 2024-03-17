@@ -1,12 +1,11 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { MdSwipeLeftAlt } from "react-icons/md";
 
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <div className="about-section">
        <h1> What you can Know <span>About Us</span></h1>
        <p>
        Our platform is all about empowering you to make a 
@@ -22,7 +21,7 @@ function About() {
         <MdSwipeLeftAlt className="bac" />
         Donate Now
         </Link>
-    </Container>
+    </div>
   );
 }
 

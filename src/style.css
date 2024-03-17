@@ -300,6 +300,14 @@ button:focus {
   padding: 2% 20%;
 }
 
+@media (max-width: 350px){
+  .about-section h1{
+    font-size: 20px;
+    margin-top: 70px;
+  }
+ 
+}
+
 .lin{
   color: white;
   font-weight: 700;

@@ -33,6 +33,13 @@
     color: black;
     font-weight: 900;
 }
+
+@media (max-width: 390px){
+    .side h2{
+        font-size: 20px;
+    }
+  }
+
 .side p{
     color: #808000;
     font-weight: 900;

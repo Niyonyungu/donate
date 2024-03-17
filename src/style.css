@@ -191,7 +191,11 @@ button:focus {
 
 @media (max-width: 390px){
   .type-head h1{
-    margin-top: 80px;
+    margin-top: 80px;  
+   font-size: 10px;
+  }
+  .type-head p{
+    font-size: 10px;
   }
 }
 

@@ -2,7 +2,7 @@
   Donate Purple<br/>
 </h2>
 <div align="center">
-  <img alt="Demo" src="" />
+  <img alt="Demo" src="./src/Assets/donatep.JPG" />
 </div>
 
 <br/>

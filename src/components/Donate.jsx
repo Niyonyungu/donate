@@ -30,26 +30,26 @@ const Donate = () => {
         <div className={donat.side}>
             <h2 className={donat.rep}>Republicans</h2>
             <p>{donations.Republicans} <span>$</span></p>
-            <div className={`${donat.bubble} ${donat.bubble1}`}></div>
+            <div className={`${donat.bubble} ${donat.bubble1}`} style={{ width: donations.Republicans + 'px', height: donations.Republicans + 'px' }}></div>
         </div>
           <div className={donat.center}>
               <h1>Total Donation</h1>
               <h2><span className={donat.total}>{totalDonation}</span>{""} $ </h2>
         {showCenterBubble && (
-              <div className={`${donat.bubble} ${donat.bubble3}`}></div>
+              <div className={`${donat.bubble} ${donat.bubble3}`} style={{ width: totalDonation + 'px', height: totalDonation + 'px' }}></div>
               )}
           </div>
         <div className={donat.side}>
             <h2 className={donat.dem}>Democrats</h2>
             <p>{donations.Democrats} <span>$</span></p>
-            <div className={`${donat.bubble} ${donat.bubble2}`}></div>
+            <div className={`${donat.bubble} ${donat.bubble2}`} style={{ width: donations.Democrats + 'px', height: donations.Democrats + 'px' }}></div>
         </div>
       </div>
       <div className={donat.donatee}>
            <select name="" id="" className={donat.sele} onChange={handlePartySelection}>
             <option value="">Select Party</option>
-            <option value="Republicans">Republicans</option>
             <option value="Democrats">Democrats</option>
+            <option value="Republicans">Republicans</option>
            </select>
            <input type="number" id="donationInput" className={donat.inp} placeholder='$' />
            <button className={donat.dontatebtn} onClick={handleDonation}>Donate</button>

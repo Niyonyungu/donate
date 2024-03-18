@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Republicans",
-          "OR",
+          "or",
           "Democrats",
         ],
         autoStart: true,

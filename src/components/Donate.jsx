@@ -7,7 +7,7 @@ const Donate = () => {
     <div className={donat.container}> 
       <div className={donat.parties}>
         <div className={donat.side}>
-            <h2 className={donat.rep}>Republicans</h2>
+            <h2 className={donat.rep}>Republican</h2>
             <p> 20 <span>$</span></p>
             {/* <div className={`${donat.bubble} ${donat.bubble1}`}></div> */}
             <div className={donat.heartr}>❤</div>
@@ -19,7 +19,7 @@ const Donate = () => {
             <div className={donat.heartc}>❤</div>
           </div>
           <div className={donat.side}>
-            <h2 className={donat.dem}>Democrats</h2>
+            <h2 className={donat.dem}>Democrat</h2>
             <p> 20<span>$</span></p>
             {/* <div className={`${donat.bubble} ${donat.bubble2}`}></div> */}
             <div className={donat.heartd}>❤</div>

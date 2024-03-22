@@ -13,6 +13,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
+  height: 63px;
   background-color: whitesmoke !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px #56047c21 !important;
@@ -104,7 +105,7 @@ button:focus {
 
 .navbar-nav .nav-link {
   color: black !important;
-  font-size: 22px;
+  font-size: 20px;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }

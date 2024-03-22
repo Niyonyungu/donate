@@ -14,7 +14,7 @@ const Donate = () => {
            <div className={donat.center}>
               <h1>Total Donation</h1>
               <h2><span className={donat.total}>40 </span>{""} $ </h2> 
-            <div className={donat.heartc}>❤</div>
+            <div className={donat.bubble3}>&#128156;</div>
           </div>
           <div className={donat.side}>
             <h2 className={donat.dem}>Democrats</h2>

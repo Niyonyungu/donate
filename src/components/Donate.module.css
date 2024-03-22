@@ -31,7 +31,6 @@
 .side h2{
     font-size: 40px;
     color: black;
-    font-weight: 900;
 }
 
 @media (max-width: 390px){
@@ -42,7 +41,7 @@
 
 .side p{
     color: #A020F0;
-    font-weight: 900;
+    font-weight: 700 !important;
     font-size: 30px;
 }
 
@@ -64,74 +63,56 @@
 }
 
 .rep{
+    font-weight: 500 !important;
     border-left: 5px solid red;
     padding-left: 5px;
 }
 .dem{
+    font-weight: 500 !important;
     border-right: 5px solid blue;
     padding-right: 5px;
 }
 
 
 
-.heartr{
-  font-size: 80px;
-  line-height: 1;
-  color: red;
-  margin: 0 auto;
-    padding: 0;
-    animation: heart-pulse 0.8s ease-out alternate;
-    animation-iteration-count: infinite;
-  }
-  .heartd{
-    font-size: 80px;
-    line-height: 1;
-    color: blue;
-    margin: 0 auto;
-    padding: 0;
-    animation: heart-pulse 0.8s ease-out alternate;
-    animation-iteration-count: infinite;
-  }
-
   .heartc{
-    font-size: 50px;
+    font-size: 20px;
     line-height: 1;
     color: purple;
     margin: 0 auto;
     padding: 0;
-    animation: heart-pulse 0.8s ease-out alternate;
+    animation: heart-pulse 1.5s ease-out alternate;
     animation-iteration-count: infinite;
   }
   
-  @keyframes heart-pulse {
-    0% {-webkit-transform: scale(0.75, 0.75); transform: scale(0.75, 0.75);}
-    30% {-webkit-transform: scale(1, 1); transform: scale(1, 1);}
-  }
   
-  
-  /* .bubble{
-    clip-path: circle();
-    margin-top: 20px;
-  }  
   
   
   .bubble1{  
-    width: 40px;
-    height: 40px;
-    background: red;
+    font-size: 50px;
+    line-height: 1;
+    color: red;
+    margin: 0 auto;
+    padding: 0;
+    animation: heart-pulse 1.5s ease-out alternate;
+    animation-iteration-count: infinite;
   }  
     
   .bubble2{
-    width: 40px;
-    height: 40px;
-    background: blue;
+    font-size: 50px;
+    line-height: 1;
+    color: blue;
+    margin: 0 auto;
+    padding: 0;
+    animation: heart-pulse 1.5s ease-out alternate;
+    animation-iteration-count: infinite;
   }
 
-  .bubble3{
-    width: 80px;
-    height: 80px;
-    background: purple;
-  } */
+    @keyframes heart-pulse {
+      0% {-webkit-transform: scale(0.75, 0.75); transform: scale(0.75, 0.75);}
+      30% {-webkit-transform: scale(1, 1); transform: scale(1, 1);}
+    }
+
 
 .donatee{
     display: flex;

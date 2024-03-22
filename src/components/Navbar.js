@@ -2,13 +2,9 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import logo from "../Assets/donatt-re.png";
+import logo from "../Assets/Purple@3x.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineBook,
-} from "react-icons/ai";
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 
@@ -24,8 +20,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <p className="img-fluid logo">Donate Purple</p>
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -41,16 +36,12 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineBook style={{ marginBottom: "2px" }} /> About
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)} >
+              About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">

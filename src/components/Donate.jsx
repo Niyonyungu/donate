@@ -13,11 +13,24 @@ const Donate = () => {
   const handleDonate = () => {
     const amount = parseInt(donationAmount);
     if (!isNaN(amount) && amount > 0) {
-      // Update donations based on selected party
-      if (selectedParty === "Democrats") {
+      // Check if the selected party has smaller donation
+      if (selectedParty === "Democrats" && amount < republicansDonations) {
+        // Subtract the donation amount from Republicans
+        setRepublicansDonations(prev => prev - amount);
+        // Add the deducted amount to Democrats
         setDemocratsDonations(prev => prev + amount);
-      } else if (selectedParty === "Republicans") {
+      } else if (selectedParty === "Republicans" && amount < democratsDonations) {
+        // Subtract the donation amount from Democrats
+        setDemocratsDonations(prev => prev - amount);
+        // Add the deducted amount to Republicans
         setRepublicansDonations(prev => prev + amount);
+      } else {
+        // Update donations based on selected party
+        if (selectedParty === "Democrats") {
+          setDemocratsDonations(prev => prev + amount);
+        } else if (selectedParty === "Republicans") {
+          setRepublicansDonations(prev => prev + amount);
+        }
       }
       // Update total donations
       setTotalDonations(prev => prev + amount);
@@ -32,7 +45,7 @@ const Donate = () => {
         <div className={donat.side}>
           <h3 className={donat.rep}>Republicans</h3>
           <p>{republicansDonations} <span>$</span></p>
-          <div className={donat.bubble1}>&#9679;</div>
+          <div className={donat.bubble1} >&#9679;</div>
         </div>
         <div className={donat.center}>
           <h3>Total Donation</h3>
@@ -42,7 +55,7 @@ const Donate = () => {
         <div className={donat.side}>
           <h3 className={donat.dem}>Democrats</h3>
           <p>{democratsDonations}<span> $</span></p>
-          <div className={donat.bubble2}>&#9679;</div>
+          <div className={donat.bubble2} >&#9679;</div>
         </div>
       </div>
       <div className={donat.donatee}>

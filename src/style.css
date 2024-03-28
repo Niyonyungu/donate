@@ -1,5 +1,4 @@
 html {
-
   --imp-text-color: #A020F0;
 }
 
@@ -13,10 +12,10 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  height: 63px;
+  height: 60px;
   background-color: whitesmoke !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #56047c21 !important;
+  box-shadow: 1px 3px 3px 1px #56047c21 !important;
 }
 
 
@@ -98,14 +97,14 @@ button:focus {
 }
 
 .logo {
-  height: 1.8em !important;
+  height: 1.3em !important;
   /* width: 8.5em !important; */
 }
 
 
 .navbar-nav .nav-link {
   color: black !important;
-  font-size: 20px;
+  font-size: 17px;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -158,7 +157,7 @@ button:focus {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .click{
   color: #A020F0;
@@ -169,21 +168,17 @@ button:focus {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 12%;
+  margin-top: 7%;
 }
 
 @media (max-width: 767px) {
   .type-head{
     margin-top: 50px !important;
   }
-
- 
 }
 
-
-
-
-.type-head h1{
+.type-head h2{
+  color: black;
   font-weight: 700 !important;
 }
 .type-head p{
@@ -193,7 +188,7 @@ button:focus {
 }
 
 @media (max-width: 390px){
-  .type-head h1{
+  .type-head h2{
     margin-top: 80px;  
    font-size: 10px;
   }
@@ -207,12 +202,12 @@ button:focus {
 
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 1.8em !important;
   color: #A020F0 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 2.1em !important;
   color: #A020F0 !important;
 }
 

@@ -30,17 +30,17 @@ const Donate = () => {
     <div className={donat.container}> 
       <div className={donat.parties}>
         <div className={donat.side}>
-          <h2 className={donat.rep}>Republicans</h2>
+          <h3 className={donat.rep}>Republicans</h3>
           <p>{republicansDonations} <span>$</span></p>
           <div className={donat.bubble1}>&#9679;</div>
         </div>
         <div className={donat.center}>
-          <h1>Total Donation</h1>
+          <h3>Total Donation</h3>
           <h2><span className={donat.total}>{totalDonations}</span> $ </h2> 
           <div className={donat.bubble3}>&#128156;</div>
         </div>
         <div className={donat.side}>
-          <h2 className={donat.dem}>Democrats</h2>
+          <h3 className={donat.dem}>Democrats</h3>
           <p>{democratsDonations}<span> $</span></p>
           <div className={donat.bubble2}>&#9679;</div>
         </div>

@@ -3,10 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/Purple@3x.png";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";  
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -44,7 +44,7 @@ function NavBar() {
               About
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href=""
                 target="_blank"
@@ -52,13 +52,13 @@ function NavBar() {
               >
               Login
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
     <Outlet/>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }

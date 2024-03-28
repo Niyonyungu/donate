@@ -45,18 +45,19 @@ const Donate = () => {
         <div className={donat.side}>
           <h3 className={donat.rep}>Republicans</h3>
           <p>{republicansDonations} <span>$</span></p>
+          <br />
           <div className={donat.bubble1} style={{ transform: `scale(${republicansDonations / 500})` }} >&#9679;</div>
         </div>
         <div className={donat.center}>
           <h3>Total Donation</h3>
           <h2><span className={donat.total}>{totalDonations}</span> $ </h2> 
-          {/* <div className={donat.bubble3}>&#128156;</div> */}
-        <div className={donat.bubble3} style={{ transform: democratsDonations === republicansDonations ? `scale(${totalDonations / 500})` : 'scale(1)' }}>💜</div>
-
+          <br />
+          <div className={donat.bubble3} style={{ transform: democratsDonations === republicansDonations ? `scale(${totalDonations / 500})` : 'scale(1)' }}>&#128156;</div>
         </div>
         <div className={donat.side}>
           <h3 className={donat.dem}>Democrats</h3>
           <p>{democratsDonations}<span> $</span></p>
+          <br />
           <div className={donat.bubble2} style={{ transform: `scale(${democratsDonations / 500})` }} >&#9679;</div>
         </div>
       </div>
